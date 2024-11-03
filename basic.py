@@ -133,7 +133,17 @@ class Lexer:
             return Token(CHINT, int(num_str))
         else:
             return Token(CHFLOAT, float(num_str))
+#parser
 
+class nodes:
+    def __init__(self,tok) -> None:
+        self.tok=tok
+    def __repr__(self) -> str:
+        return f"{self.tok}"
+class binopnode:
+    def __init__(self):
+        f eg f 
+        c
 # RUN
 
 
